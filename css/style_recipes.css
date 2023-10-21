@@ -19,11 +19,16 @@ body {
     margin: 0 auto;
   }
   
-  #luck_dog {
-    width: 70%;
-    height: auto;
-    display: block;
-    margin: 0 auto;
+  .important {
+    background-color: bisque;
+  }
+
+  .dot{
+    border: 10px dotted darkcyan;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 3px 3px 5px #888888;
+    background-color: #f9f9f9;
   }
   
   p {
@@ -101,8 +106,50 @@ body {
     border: 2px solid rgb(66, 247, 211);
     
   }
+
+  .image-grid-1x2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* Create a 1x2 grid */
+    gap: 20px; /* Adjust the gap between images */
   
- 
+    /* Add a frame around each image */
+    border: 10px dotted darkcyan;
+    padding: 10px;
+    text-align: center;
+    justify-items: center;
+    align-items: center;
+  }
+  
+  .image-grid-1x2 img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border: 5px solid rgb(66, 247, 211); 
+    box-shadow: 8px 8px 10px #3a3a3a; 
+  }
+  
+  .image-grid-1x3 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr; /* Create a 1x2 grid */
+    gap: 20px; 
+  
+    /* Add a frame around each image */
+    border: 10px dotted darkcyan;
+    padding: 10px;
+    text-align: center;
+    justify-items: center;
+    align-items: center;
+  }
+  
+  .image-grid-1x3 img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border: 5px solid rgb(66, 247, 211); /* Add a border around the images */
+    box-shadow: 8px 8px 10px #3a3a3a; /* Add a subtle box shadow for depth */
+  }
+  
+  /* Customize other styles as needed */
   @media (prefers-reduced-motion: reduce) {
     .gif {
       display: none;
