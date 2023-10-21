@@ -1,7 +1,7 @@
 body{
   background-color: rgb(204, 238, 250);
-  margin-left: 10em;
-  margin-right: 10em;
+  margin-left: 50px;
+  margin-right: 50px;
 }
 
 h2{
@@ -16,14 +16,14 @@ h3{
 
 
 .initial_image {
-  width: 40%; /* Set the width to 100% to make them the same width as their parent */
-  height: 40%; /* Maintain the original aspect ratio */
+  /* width: 40%; Set the width to 100% to make them the same width as their parent */
+  /* height: 40%; Maintain the original aspect ratio */
   display: block;
   margin: 0 auto;
 }
 
 #luck_dog{
-  width: 25%; /* Set the width to 100% to make them the same width as their parent */
+  /* width: 25%; Set the width to 100% to make them the same width as their parent */
   height: auto; /* Maintain the original aspect ratio */
   display: block;
   margin: 0 auto;
